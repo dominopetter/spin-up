@@ -1,0 +1,14 @@
+code-server (1.75.1, nvs.domino-eval.com, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2023.4.1.
+Workspace folder /mnt/code
+info 13:48:41.515: ZMQ install verified.
+info 13:48:42.331: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 13:48:42.472: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 13:48:42.488: Process Execution: > jupyter lab --version
+> jupyter lab --version
+info 13:48:46.161: Got empty env vars with python /bin/python in 224ms
+info 13:48:46.161: Got env vars ourselves faster /bin/python with env var count 258 in 225ms
+info 13:48:46.172: Process Execution: > /bin/python -m pip list
+> /bin/python -m pip list

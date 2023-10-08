@@ -1,0 +1,18 @@
+Experiment 'python.createEnvironment.trigger' is active
+Experiment 'pythonPromptNewFormatterExt' is active
+Experiment 'pythonPromptNewToolsExt' is active
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+> /bin/python -I ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python2 -I ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /bin/python3 -I ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-9-8 13:48:43.665]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /bin/python2 ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /usr/bin/python2 -I ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+[ERROR 2023-9-8 13:48:43.973]: Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+> /usr/bin/python2 ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+> /opt/conda/bin/python -I ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2023.4.1-universal/pythonFiles/interpreterInfo.py
+Python interpreter path: /bin/python
+Starting Jedi language server for code.
+Send text to terminal: /bin/python /mnt/code/start_job.py

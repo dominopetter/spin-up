@@ -1,0 +1,59 @@
+2023-10-08 13:46:54.991 [info] Extension host with pid 322 started
+2023-10-08 13:46:55.066 [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-4eae057f/vscode.lock': Lock acquired.
+2023-10-08 13:46:55.080 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-08 13:46:55.081 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-10-08 13:46:55.175 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-08 13:46:55.235 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-08 13:46:55.235 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-08 13:46:55.235 [info] Eager extensions activated
+2023-10-08 13:47:34.071 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2023-10-08 13:47:42.544 [info] Extension host terminating: received terminate message from renderer
+2023-10-08 13:47:42.544 [info] Lock '/mnt/code/.vscode/User/workspaceStorage/-4eae057f/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-10-08 13:47:42.556 [error] Canceled: Canceled
+	at new u (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:88072)
+	at l.O (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:106:11276)
+	at Proxy.V.<computed>.M.charCodeAt.V.<computed> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:106:8557)
+	at s.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:107433)
+	at s.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:106809)
+	at w.registerCommand.description (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:106102)
+	at s.h (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:108019)
+	at s.g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:106909)
+	at s.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:96:106809)
+	at Object.executeCommand (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:117:30779)
+	at D (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:2055373)
+	at m.invoke (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at p.deliver (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2029)
+	at d.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1667)
+	at Object.h [as dispose] (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:2070210)
+	at /usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:2074277
+	at Array.forEach (<anonymous>)
+	at g.dispose (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:2074263)
+	at y.<anonymous> (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:12432)
+	at y.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:12567)
+	at y.<anonymous> (/usr/lib/code-server/lib/vscode/extensions/git/dist/main.js:2:2057503)
+	at y.dispose (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:12567)
+	at T (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:10:12072)
+	at p.X (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:11241)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:9036
+	at Array.map (<anonymous>)
+	at p.Q (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:9023)
+	at p.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:108:9297)
+	at f.terminate (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:1397)
+	at g (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:17850)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:122:15760
+	at m.invoke (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at p.deliver (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2029)
+	at d.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1667)
+	at g.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:14861)
+	at t.E (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:18927)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:16915
+	at m.invoke (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at p.deliver (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2029)
+	at d.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1667)
+	at f.acceptChunk (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:12592)
+	at /usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:11879
+	at m.invoke (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:145)
+	at p.deliver (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:2029)
+	at d.fire (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:60:1667)
+	at d.t (/usr/lib/code-server/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:71:28517) setContext undefined
+2023-10-08 13:47:42.557 [info] Extension host with pid 322 exiting with code 0
