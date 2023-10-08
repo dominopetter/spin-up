@@ -5,10 +5,6 @@ data _null_;
    put "Hello, World!";
 run;
 
-/* Output current version of SAS */
-proc product_status;
-run;
-
 /* Get license information */
 proc setinit noalias;
 run;
